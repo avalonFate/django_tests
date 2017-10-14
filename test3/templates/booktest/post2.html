@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>用户名:{{ uname }}</div>
+    <div>密码:{{ upwd }}</div>
+    <div>性别:{{ ugender }}</div>
+    <div>兴趣:{% for foo in uhobby %}
+        <span>{{ foo }}    </span>
+    {% endfor %}
+    </div>
+</body>
+</html>
