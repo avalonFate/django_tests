@@ -1,0 +1,1 @@
+hasattr()  # ctrl+p查看方法
